@@ -1,0 +1,200 @@
+body {
+    background: black;
+}
+
+.row {
+    /* padding: 0 300px; */
+    width: 100%;
+}
+
+div#navbarSupportedContent {
+    margin-top: -20 px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: black !important;
+}
+
+i.fas.fa-film {
+    color: orangered;
+    font-size: 30px;
+}
+
+i.fas.fa-film:hover {
+    color: whitesmoke !important;
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-item a:hover {
+    color: orangered !important;
+}
+
+button.btn.btn-outline-success {
+    background: none !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.navbar-toggler {
+    background: red !important;
+    box-shadow: 0px 0px 10px 3px orangered;
+    width: 40px;
+    height: 20px;
+}
+
+.navbar-toggler:hover {
+    background: rgb(230, 66, 6) !important;
+    box-shadow: 0px 0px 10px 3px rgb(219, 86, 38);
+}
+
+input.form-control.me-2 {
+    background: none;
+    border-color: red;
+    box-shadow: 0px 0px 10px 3px red;
+}
+
+input.form-control.me-2 {
+    color: white;
+}
+
+button.btn.btn-outline-success {
+    color: white !important;
+    border-color: red !important;
+    background: red !important;
+}
+
+
+/* register & login*/
+
+
+/* .modal-body {
+    background: rgba(0, 0, 0, 0, 0.4);
+} */
+
+.modal-footer {
+    background: rgb(0, 0, 0, .3);
+    opacity: 1;
+    /* box-shadow: 0px 0px 10px 3px red; */
+}
+
+
+/* .modal-header {
+    background: black;
+    box-shadow: 0px 0px 10px 3px black;
+} */
+
+button.btn.btn-primary {
+    background: blue;
+    outline: none;
+    border: none;
+}
+
+h5#exampleModalLabel {
+    font-size: 20px !important;
+    color: black;
+    font-size: 30px;
+}
+
+input[type="text"] {
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    color: black;
+    height: 50px;
+}
+
+
+/* slidebar */
+
+.carousel-item img {
+    height: 500px;
+}
+
+
+/* pills*/
+
+.cs {
+    display: flex;
+    flex: wrap;
+    background: red;
+}
+
+.col-sm-6.col-lg-3.col-md-4.text-light {
+    width: 240px;
+    padding: 20px;
+}
+
+.col-ms-6.col-md-4.col-lg-3 {
+    width: 250px;
+}
+
+button#pills-home-tab {
+    margin-left: 30px;
+}
+
+
+/* div#pills-home {
+  width: 80%;
+} */
+
+img,
+p {
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+.card {
+    padding: 0 20px;
+    background: none;
+}
+
+.card.text-white {
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+/* download */
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* menu */
+
+ul#pills-tab {
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+.head h3 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f_t p,
+h4 {
+    padding-left: 200px;
+    color: rgb(197, 195, 195);
+}
